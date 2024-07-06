@@ -14,6 +14,7 @@
 		76408E9C2C36652F009C5CFE /* ponicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76408E9B2C36652F009C5CFE /* ponicTests.swift */; };
 		76408EA62C36652F009C5CFE /* ponicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76408EA52C36652F009C5CFE /* ponicUITests.swift */; };
 		76408EA82C36652F009C5CFE /* ponicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76408EA72C36652F009C5CFE /* ponicUITestsLaunchTests.swift */; };
+		76408EB52C372393009C5CFE /* AppIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76408EB42C372393009C5CFE /* AppIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		76408EA12C36652F009C5CFE /* ponicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ponicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76408EA52C36652F009C5CFE /* ponicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ponicUITests.swift; sourceTree = "<group>"; };
 		76408EA72C36652F009C5CFE /* ponicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ponicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		76408EB42C372393009C5CFE /* AppIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				76408E892C36652E009C5CFE /* ponicApp.swift */,
 				76408E8B2C36652E009C5CFE /* ContentView.swift */,
+				76408EB42C372393009C5CFE /* AppIconView.swift */,
 				76408E8D2C36652F009C5CFE /* Assets.xcassets */,
 				76408E8F2C36652F009C5CFE /* ponic.entitlements */,
 				76408E902C36652F009C5CFE /* Preview Content */,
@@ -261,6 +264,7 @@
 			files = (
 				76408E8C2C36652E009C5CFE /* ContentView.swift in Sources */,
 				76408E8A2C36652E009C5CFE /* ponicApp.swift in Sources */,
+				76408EB52C372393009C5CFE /* AppIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

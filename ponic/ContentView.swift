@@ -100,7 +100,7 @@ struct ContentView: View {
                             }
                             .padding()
                             HStack{
-                                Image(systemName: "laurel.leading")
+                                Image(systemName: "camera.macro")
                                     .font(.title)
                                     .frame(width: 30)
                                 Text("Grow State")
@@ -187,6 +187,25 @@ struct ContentView: View {
                                 Image(systemName: "chevron.right")
                             }
                             .padding()
+                            Divider()
+                                .overlay(.primary)
+                            HStack{
+                                Text("P1")
+                                    .font(.system(size: 30))
+                                    .bold()
+                                    .italic()
+                                    .padding([.top,.leading])
+                                Spacer()
+                            }
+                            HStack{
+                                Text("Matte Black")
+                                    .font(.system(size: 18))
+                                    .bold()
+                                    .italic()
+                                    .opacity(0.6)
+                                    .padding([.leading, .bottom])
+                                Spacer()
+                            }
                         }
                     }
                     .coordinateSpace(name: "scrollView")
